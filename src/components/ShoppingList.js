@@ -8,7 +8,7 @@ function ShoppingList() {
 			acc.includes(plant.category) ? acc : acc.concat(plant.category),
 		[]
 	)
-    console.log(categories)
+	
 	return (
 		<div>
 			<ul>
